@@ -20,18 +20,17 @@
 <div class="container">
 <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()">Logout</button>
 	<center>
-		<h1 class="header">	
-			Kwitter	
-			<sup>
-				<img src="m2.png">
-			</sup>
-		</h1>
-		<h3 class="color_white"></h3>
+	<center>
+		<h3 class="color_white" id="username"></h3>
+	</center>
 		<div class="form-group input_div_room_page">
 			<label>#Add Room:</label>
-		<input type="text" id="Room_name" class="form-control" placeholder="Add_room">
+			<br>
+		<input type="text" class="form-control" id="Room_name" placeholder="Add_room">
 		</div>
-		<button class="btn btn-success" onclick="add_Room()">#Add Room</button>
+		<span>
+		<button class="btn btn-success" onclick="add_Room()">#Add Room</button> 
+	</span>
 		<h3 class="color_white">#TRENDINGROOMS</h3>
 	
 		<div id="output"></div>>
